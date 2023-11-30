@@ -1,0 +1,99 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: transparent; /* Set background color to transparent */
+}
+
+.login-btn {
+  margin-left: right;
+
+}
+
+.login-btn a {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-btn a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+}
+/* App.css */
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-block {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center; /* Align text to center */
+  overflow: hidden;
+}
+
+.content-block h2 {
+  font-weight: bold;
+  color: #333; /* Change color of the title */
+}
+
+.content-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-block li {
+  margin-bottom: 8px;
+  color: #555; /* Change color of list items */
+}
+
+.content-block p {
+  margin: 0;
+  color: #777; /* Change color of paragraph text */
+}

@@ -1,0 +1,59 @@
+/* Home.css */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 150px; /* Set the height as needed */
+  }
+  
+  .marquee-images {
+    display: flex;
+    animation: marquee 15s linear infinite;
+  }
+  
+  .marquee-images img {
+    margin-right: 20px; /* Adjust the spacing between images */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .content-block {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .content-block h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content-block div {
+    max-height: 120px; /* Adjust the max height of the content */
+    overflow-y: auto;
+  }
+  
+  .content-block p {
+    margin: 0;
+    color: #777;
+  }
+  
